@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/GreenApple">
+
+    <TextView
+        android:id="@+id/Store_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/Store_Name"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Meat"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/Eggs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Eggs"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/Milk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Milk"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/Fish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Fish"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/Fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Fruit"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/Bread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Bread"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/Cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Cheese"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/Water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Water"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/Сereals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFFFF"
+        android:padding="10dp"
+        android:text="@string/Cereals"
+        android:textColor="@color/black"
+        android:alpha="0.65"
+        app:iconTint="#FFFFFF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="61dp"
+        android:layout_height="59dp"
+        android:contentDescription="TODO"
+        android:padding="4dp"
+        app:srcCompat="@drawable/Store"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="74dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="16dp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ShoppingCart2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

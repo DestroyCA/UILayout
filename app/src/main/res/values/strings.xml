@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UILayout(6)</string>
+    <string name="Store_Name">Fresh Market</string>
+    <string name="Meat">Мясо</string>
+    <string name="Eggs">Яйца</string>
+    <string name="Milk">Молоко</string>
+    <string name="Fish">Рыба</string>
+    <string name="Fruit">Фруткы</string>
+    <string name="Bread">Хлеб</string>
+    <string name="Cheese">Сыр</string>
+    <string name="Water">Вода</string>
+    <string name="Cereals">Крупы</string>
+</resources>
